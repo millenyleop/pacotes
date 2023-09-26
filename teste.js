@@ -15,10 +15,3 @@ console.log(rainbowColors.join(' -> '));
 console.log(chalk.inverse('Você pode combinar várias cores e estilos para criar diversas mensagens.'));
 console.log(chalk.bgWhite.black('Experimente o Chalk quando quiser que seu texto seja colorido'));
 
-//com o codigo, ficara assim
-
-function InserirImagem(url) {
-        let img = document.createElement("img");
-        img.src=https://github.com/millenyleop/pacotes/blob/main/segundaparte.png;
-        document.body.appendChild(img);
-    }
