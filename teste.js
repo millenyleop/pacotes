@@ -17,4 +17,8 @@ console.log(chalk.bgWhite.black('Experimente o Chalk quando quiser que seu texto
 
 //com o codigo, ficara assim
 
-<img src='https://github.com/millenyleop/pacotes/blob/main/segundaparte.png'>
+function InserirImagem(url) {
+        let img = document.createElement("https://github.com/millenyleop/pacotes/blob/main/segundaparte.png");
+        img.src=url;
+        document.body.appendChild(img);
+    }
